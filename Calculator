@@ -1,0 +1,21 @@
+# Calculator using python 
+
+
+print("Enter your 1st number ")
+n1 = int(input())
+print("Enter your operation : ")
+n3 = input()
+print("Enter your 2nd number ")
+n2 = int(input())
+if n3 == '+':
+    print("Your answer is : ", n1 + n2)
+elif n3 == "-":
+    print("Your answer is : ", n1 - n2)
+elif n3 == "/":
+    print("Your answer is : ", n1 / n2)
+elif n3 == "*":
+    print("Your answer is : ", n1*n2)
+else:
+    print("You are doing something wrong")
+
+print("\nThanks for using this calculator")
