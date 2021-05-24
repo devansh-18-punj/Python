@@ -1,0 +1,11 @@
+# Enter your age and you will get to know if you are eligible to drive or not 
+
+print("Enter your age and find if you are eligible to drive or not")
+Age = int(input())
+if 100 > Age > 18:
+    print("Congrats!! You are eligible to drive")
+elif Age == 18:
+    print("Go to office and present yourself to get your driving license")
+else:
+    print("You are not eligible to drive")
+    
