@@ -1,0 +1,26 @@
+# This is a calculator which perform calculations but give wrong answers for some calculations
+
+print("Enter your 1st number ")
+n1 = int(input())
+print("Enter your 2nd number ")
+n2 = int(input())
+print("Enter your operation : ")
+n3 = input()
+if n1 == 45 and n2 == 3 and n3 == "*":
+    print(555)
+elif n1 == 56 and n2 == 9 and n3 == "+":
+    print(77)
+elif n1 == 56 and n2 == 6 and n3 == "/":
+    print(4)
+elif n3 == '+':
+    print("Your answer is : ", n1 + n2)
+elif n3 == "-":
+    print("Your answer is : ", n1 - n2)
+elif n3 == "/":
+    print("Your answer is : ", n1 / n2)
+elif n3 == "*":
+    print("Your answer is : ", n1*n2)
+else:
+    print("You are doing something wrong")
+
+print("\nThanks for using this calculator")
