@@ -1,0 +1,18 @@
+# Let's play a game of guessing a number 
+
+print("\n You are given total of 7 chances and you have to guess a number\n")
+print("If you guess the right number between 1 to 100 then Congo!! you will be the winner of the game \n")
+print("Guess your number : ")
+n = 18
+x = 7
+for i in range(1, 8):
+    num = int(input())
+    if num == 18:
+        print("Congo!! You win the game by guessing the right number")
+        break
+    elif num > 18:
+        print("Ohhh!!! You are wrong, try and think of some lower number than this")
+        print("You are left with", x-i, "chance")
+    elif num < 18:
+        print("Ohhh!!! You are wrong, try and think of some higher number than this")
+        print("You are left with", x - i, "chance")
