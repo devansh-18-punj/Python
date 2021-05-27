@@ -1,0 +1,5 @@
+# Write a Python program which accepts the user's first and last name and print them in reverse
+
+n = input("Enter your first name : ")
+s = input("Enter your second name : ")
+print("Hello", s + " " + n)
