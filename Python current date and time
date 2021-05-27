@@ -1,0 +1,10 @@
+# Write a Python program to display the current date and time.
+
+
+import datetime
+# This is a datetime module which simply access the current date and time
+now = datetime.datetime.now()
+# datetime.now(tz=None) returns the current local date and time.
+print("Current date and time : ")
+print(now.strftime("%Y-%m-%d %H:%M:%S"))
+# date.strftime(format) returns a string representing the date, controlled by an explicit format string.
