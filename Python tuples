@@ -1,0 +1,20 @@
+# Given an integer, n, and n space-separated integers as input, create a tuple, t, of those n integers. Then compute and print the result of hash()
+
+# Input Format
+
+# The first line contains an integer, n, denoting the number of elements in the tuple.
+# The second line contains n space-separated integers describing the elements in tuple t.
+
+
+
+
+
+
+
+
+if __name__ == '__main__':
+    n = int(input())
+    integer_list = map(int, input().split())
+    # Tuples in Python - Hacker Rank Solution START
+    t = tuple(integer_list)
+    print(hash(t));
